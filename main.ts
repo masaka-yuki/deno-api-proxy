@@ -4,7 +4,7 @@ async function handleRequest(request: Request): Promise<Response> {
   const pathname = url.pathname;
 
   if (pathname === '/' || pathname === '/index.html') {
-    return new Response('Proxy is Running！Details：https://github.com/tech-shrimp/deno-api-proxy', {
+    return new Response('Proxy is Running！Details：https://github.com/masaka-yuki/deno-api-proxy', {
       status: 200,
       headers: { 'Content-Type': 'text/html' }
     });
